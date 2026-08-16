@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "archivoExtraCondensed", "archivoExtraCondensed Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bebas Neue", sans-serif;
+  --font-archivo-extra-condensed: "archivoExtraCondensed", "archivoExtraCondensed Fallback";
+}
+
+@layer base {
+  html.snap-enabled {
+    scroll-snap-type: y mandatory;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-black text-white antialiased overflow-x-hidden font-light;
+  }
+}

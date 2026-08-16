@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: Remix: Remix: Photographic Tale",
+  "description": "A cinematic loading sequence and landing page featuring a fast-paced slideshow of images.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
